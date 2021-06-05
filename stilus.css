@@ -1,0 +1,137 @@
+@font-face {
+    font-family: ush;
+    src: url("uni-sans.heavy-caps.otf");
+}
+
+body {
+    background: linear-gradient(rgb(22, 22, 22, 0.97), rgba(22, 22, 22, 0.97)), url("fal.jpg");
+    background-size: 500px;
+}
+
+.cimresz {
+    height: 400px;
+    background: rgb(51, 51, 51);
+}
+
+.cim {
+    color: white;
+    position: relative;
+}
+
+.cim h1 {
+    font-family: ush;
+    font-size: 100px;
+}
+
+.cim p {
+    font-size: 25px;
+    color: gray;
+}
+
+.leiras {
+    background: linear-gradient(rgb(22, 22, 22, 0.5), rgba(22, 22, 22, 0.5)), url("papir.jpg");
+    background-size: cover;
+    height: max-content;
+}
+
+.tszoveg {
+    color: white;
+    margin: 50px;
+}
+
+.tszoveg h2 {
+    font-size: 40px;
+    font-family: ush;
+}
+
+.tszoveg {
+    font-size: 20px;
+}
+
+.csapat {
+    background: linear-gradient(to right, rgba(216, 172, 103, 0.253) 0%, rgb(216, 172, 103) 100%), url("haboru.jpg");
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 30px;
+    height: 300px;
+}
+
+.szoveg {
+    padding-right: 200px;
+    color: white;
+    height: max-content;
+}
+
+.szoveg h2 {
+    font-size: 40px;
+    font-family: ush;
+}
+
+.szoveg p {
+    font-size: 20px;
+}
+
+.szoveg hr {
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+
+.kep {
+    width: max-content;
+    height: max-content;
+    padding-left: 120px;
+}
+
+.kep img {
+    width: 450px;
+    height: 450px;
+}
+
+.fegyver {
+    background: linear-gradient(to left, rgb(103, 152, 216, 0.253) 0%, rgb(103, 152, 216) 100%), url("haboru2.jpg");
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 30px;
+    height: 500px;
+}
+
+.fegyver .szoveg {
+    padding-left: 120px;
+}
+
+.kep2 {
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    right: 50px;
+}
+
+.kep2 img {
+    width: 75%;
+    height: 75%;
+}
+
+.footer {
+    height: 80px;
+    background: rgb(51, 51, 51);
+}
+
+.platformok {
+    background: rgba(51, 51, 51, 0.767);
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.kepek {
+    position: relative;
+    margin: 20px;
+}
+
+.kepek img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
